@@ -1,4 +1,4 @@
-//while นÝบนนฎ
+//while ยนรยบยนยนยฎ
 #include <stdio.h>
 
 int main() {
