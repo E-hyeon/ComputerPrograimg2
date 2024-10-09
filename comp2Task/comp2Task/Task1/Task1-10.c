@@ -1,15 +1,15 @@
-//n!°è»ê (nÀº ¾çÀÇÁ¤¼ö)
+//n!ê³„ì‚° (nì€ ì–‘ì˜ì •ìˆ˜)
 #include <stdio.h>
 
 int main() {
 	int n;
 	int factorial = 1;
 
-	printf("n!À» °è»êÇÒ Á¤¼ö(n>0): ");
+	printf("n!ì„ ê³„ì‚°í•  ì •ìˆ˜(n>0): ");
 	scanf_s("%d", &n);
 
 	if (n < 0) {
-		printf("¾çÀÇ Á¤¼ö°¡ ¾Æ´Ô.");
+		printf("ì–‘ì˜ ì •ìˆ˜ê°€ ì•„ë‹˜.");
 		return 1;
 	}
 
@@ -19,7 +19,7 @@ int main() {
 		i++;
 	}
 
-	printf("n!ÀÇ °ª : %d", factorial);
+	printf("n!ì˜ ê°’ : %d", factorial);
 
 	return 0;
 }
